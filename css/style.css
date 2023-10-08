@@ -1,0 +1,103 @@
+body {
+    overflow-x: hidden;
+}
+
+section {
+
+    margin-left: 350px;
+    display: flex;
+    flex-direction: column;
+
+}
+.responsive-img-p {
+    width: 200px;
+    margin: 3rem 0rem 8rem 2.5rem;
+    /*arriba izquierda abajo derecha*/
+    -webkit-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.71);
+    box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.71);
+}
+
+.p-titulo {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.card-info {
+    background-color: #d8e2dc;
+}
+
+.card-info span,
+.card-info p {
+    color: black;
+
+}
+
+.carta {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-pro {
+    transition: transform 0.5s ease;
+    width: 400px;
+}
+
+.card-pro:hover {
+    transform: scale(1.2);
+}
+
+.p-portfolio {
+    font-size: 30px;
+}
+
+.tarjeta-lenguaje {
+    background-color: #d8e2dc;
+    width: 170px;
+    height: 50px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    border-radius: 2rem;
+    transition: transform 0.5s ease;
+
+}
+
+.tarjeta-lenguaje:hover {
+    transform: scale(1.2);
+}
+
+.contenido-l {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.contenido-l img {
+    width: 50px;
+    margin-top: 0.7rem;
+    margin-left: -0.1rem;
+    text-shadow: none;
+}
+
+.contenido-l p {
+    margin-top: -6.5rem;
+    margin-left: 1.5rem;
+    font-weight: bolder;
+}
+
+.responsive-img {
+    width: 200px;
+    margin: 3rem 0rem 8rem 2.5rem;
+}
+
+.tarjeta-l-h img {
+    width: 30px;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin-left: -10rem;
+}
